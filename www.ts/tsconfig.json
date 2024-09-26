@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    // required for webpack bundler
+    "module": "esnext",
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    // Recommended
+    // https://www.typescriptlang.org/docs/handbook/modules/guides/choosing-compiler-options.html#im-using-a-bundler
+    // "noEmit": true, // this breaks webpack
+    // "allowImportingTsExtensions": true, // needs noEmit: true
+    "allowArbitraryExtensions": true,
+    "verbatimModuleSyntax": true,
+    // "strict": true,
+    // "allowJs": true,
+    // other
+    "outDir": "./dist",
+    "sourceMap": true,
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
