@@ -4,6 +4,7 @@
     "noImplicitAny": true,
     // required for webpack bundler
     "module": "esnext",
+    "lib": ["es2018", "dom"],
     "moduleResolution": "Bundler",
     "esModuleInterop": true,
     // Recommended

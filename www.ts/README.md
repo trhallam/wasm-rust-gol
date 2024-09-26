@@ -23,3 +23,4 @@ npm run start
    override in the config I am missing.
  - WebAssembly must be turned on for Webpack with `config.experiments`. Full support is not finsihed yet.
  - The settings in tsconfig.json where quite specific to get the WASM to work with the bundler.
+ - wasm-pack doesn't add the necessary WASM typescript defs to the package.json see https://github.com/rustwasm/wasm-pack/issues/1193
