@@ -1,10 +1,10 @@
 {
-  "name": "my-webpack-project",
-  "version": "1.0.0",
-  "description": "My webpack project",
+  "name": "rust-wasm-js-gol",
+  "version": "0.1.0",
+  "description": "Create an app to consume rust-generated wasm for GoL",
   "main": "index.js",
   "bin": {
-    "create-wasm-app": ".bin/js-wasm-app.js"
+    "create-wasm-app": ".bin/rust-wasm-js-gol.js"
   },
   "scripts": {
     "build": "webpack --mode=production --node-env=production",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rustwasm/create-wasm-app.git"
+    "url": "git+https://github.com/trhallam/wasm-rust-gol.git"
   },
   "keywords": [
     "webassembly",
@@ -24,12 +24,12 @@
     "rust",
     "webpack"
   ],
-  "author": "Ashley Williams <ashley666ashley@gmail.com>",
+  "author": "Tony Hallam <>",
   "license": "(MIT OR Apache-2.0)",
   "bugs": {
-    "url": "https://github.com/rustwasm/create-wasm-app/issues"
+    "url": "https://github.com/trhallam/wasm-rust-gol/issues"
   },
-  "homepage": "https://github.com/rustwasm/create-wasm-app#readme",
+  "homepage": "https://github.com/trhallam/wasm-rust-gol",
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
